@@ -5,6 +5,7 @@ loadScreen		= "images\loadScreen.jpeg";
 
 class Header
 {
+	gameType = "Warlords";	// Game type
 	minPlayers =  1;	// minimum number of players the mission supports
 	maxPlayers = 16;	// maximum number of players the mission supports
 };
