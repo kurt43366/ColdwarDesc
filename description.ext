@@ -1,0 +1,79 @@
+author			= "Golden Pablo";
+onLoadName		= "Warlords Cold War";
+onLoadMission	= "A Semi balanced Warlord game with a per player troop count of 50.";
+loadScreen		= "images\loadScreen.jpeg";
+
+class Header
+{
+	minPlayers =  1;	// minimum number of players the mission supports
+	maxPlayers = 16;	// maximum number of players the mission supports
+};
+
+class CfgWLRequisitionPresets
+{
+	class ColdWarWLAsset // --- class name used in the Init module
+	{
+		class WEST // --- assets available for BLUFOR
+		{
+			class Infantry
+			{
+				class cwr3_b_soldier_aa_stinger // --- must be asset class name
+				{
+					cost = 100; // --- Command Points required
+					requirements[] = {}; // --- dispositions required ("A" = airstrip, "H" = helipad, "W" = water (harbor))
+				};
+			};
+
+			class Vehicles
+			{
+				class cwr3_b_hmmwv
+				{
+					cost = 300;
+					requirements[] = {};
+				};
+			};
+
+			class Aircraft
+			{
+				class cwr3_b_f4e
+				{
+					cost = 7500;
+					requirements[] = { "A" };
+				};
+			};
+
+			class Naval
+			{
+				class cwr3_b_boat
+				{
+					cost = 500;
+					requirements[] = { "W" };
+				};
+			};
+
+			class Gear
+			{
+				class Box_NATO_Ammo_F
+				{
+					cost = 200;
+					requirements[] = {};
+				};
+			};
+
+			class Defences
+			{
+				class cwr3_b_m2hb_high
+				{
+					cost = 250;
+					requirements[] = {};
+					offset[] = { 0, 5.3, 0 }; // --- custom offset (optional)
+				};
+			};
+		};
+
+		class EAST // --- assets available for OPFOR
+		{
+			// --- rest of input
+		};
+	};
+};
