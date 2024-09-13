@@ -291,7 +291,7 @@ class CfgWLRequisitionPresets
 					cost = 1000;
 					requirements[] = {};
 				};
-				class cwr3_o_brt80
+				class cwr3_o_btr80
 				{
 					cost = 750;
 					requirements[] = {};
