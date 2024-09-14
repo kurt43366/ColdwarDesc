@@ -433,7 +433,7 @@ class CfgWLRequisitionPresets
 
 class CfgWLFactionAssets
 {
-	class INDEP_CW // --- Independent
+	class INDEP // --- Independent
 	{
 		class InfantryGroups // --- independent faction uses group configs to spawn garrisons; you can define various group types to be randomly used
 		{
