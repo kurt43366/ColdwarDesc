@@ -439,20 +439,10 @@ class CfgWLFactionAssets
 		{
 			groups[] = {
 				"'Indep' >> 'cwr3_fia' >> 'Infantry' >> 'cwr3_i_at_team'", // --- use this part of the config path found in the Config viewer (CfgGroups)
-			};
-			groups[] = {
 				"'Indep' >> 'cwr3_fia' >> 'Infantry' >> 'cwr3_i_support_team'", // --- use this part of the config path found in the Config viewer (CfgGroups)
-			};
-			groups[] = {
 				"'Indep' >> 'cwr3_fia' >> 'Infantry' >> 'cwr3_i_mg_team'", // --- use this part of the config path found in the Config viewer (CfgGroups)
-			};
-			groups[] = {
 				"'Indep' >> 'cwr3_fia' >> 'Infantry' >> 'cwr3_i_fire_team'", // --- use this part of the config path found in the Config viewer (CfgGroups)
-			};
-			groups[] = {
 				"'Indep' >> 'cwr3_fia' >> 'Infantry' >> 'cwr3_i_rifle_squad'", // --- use this part of the config path found in the Config viewer (CfgGroups)
-			};
-			groups[] = {
 				"'Indep' >> 'cwr3_fia' >> 'Infantry' >> 'cwr3_i_sniper_team'", // --- use this part of the config path found in the Config viewer (CfgGroups)
 			};
 		};
@@ -461,11 +451,7 @@ class CfgWLFactionAssets
 		{
 			groups[] = {
 				"'Indep' >> 'cwr3_fia' >> 'Motorized' >> 'cwr3_i_motorized_section'", // --- use this part of the config path found in the Config viewer (CfgGroups)
-			};
-			groups[] = {
 				"'Indep' >> 'cwr3_fia' >> 'Motorized' >> 'cwr3_i_motorized_patrol'", // --- use this part of the config path found in the Config viewer (CfgGroups)
-			};
-			groups[] = {
 				"'Indep' >> 'cwr3_fia' >> 'Motorized' >> 'cwr3_i_motorized_section_at'", // --- use this part of the config path found in the Config viewer (CfgGroups)
 			};
 		};
@@ -474,8 +460,6 @@ class CfgWLFactionAssets
 		{
 			groups[] = {
 				"'Indep' >> 'cwr3_fia' >> 'Mechanized' >> 'cwr3_i_mechanized_infantry_bmp1'", // --- use this part of the config path found in the Config viewer (CfgGroups)
-			};
-			groups[] = {
 				"'Indep' >> 'cwr3_fia' >> 'Mechanized' >> 'cwr3_i_mechanized_infantry_btr'", // --- use this part of the config path found in the Config viewer (CfgGroups)
 			};
 		};
@@ -484,8 +468,6 @@ class CfgWLFactionAssets
 		{
 			groups[] = {
 				"'Indep' >> 'cwr3_fia' >> 'Armoured' >> 'cwr3_i_t34_platoon'", // --- use this part of the config path found in the Config viewer (CfgGroups)
-			};
-			groups[] = {
 				"'Indep' >> 'cwr3_fia' >> 'Armoured' >> 'cwr3_i_bmp2_zu23_section'", // --- use this part of the config path found in the Config viewer (CfgGroups)
 			};
 		};
