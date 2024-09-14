@@ -1,7 +1,7 @@
 author			= "Golden Pablo";
 onLoadName		= "Warlords Cold War";
 onLoadMission	= "A Semi balanced Warlord game with a per player troop count of 50.";
-loadScreen		= "images\loadScreen.jpeg";
+loadScreen		= "images\loadScreen.jpg";
 
 class Header
 {
