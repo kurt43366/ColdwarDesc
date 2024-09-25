@@ -1,6 +1,6 @@
 author			= "Golden Pablo";
 onLoadName		= "Warlords Cold War";
-onLoadMission	= "A Semi balanced Warlord game with a per player troop count of 50.";
+onLoadMission	= "A Semi balanced Warlord game with a per player troop count of 30.";
 loadScreen		= "images\loadScreen.jpg";
 
 class Header
@@ -9,7 +9,9 @@ class Header
 	minPlayers =  1;	// minimum number of players the mission supports
 	maxPlayers = 16;	// maximum number of players the mission supports
 };
-
+// --- CWR3_USA
+// --- CWR3_RUS
+// --- CWR3_TDF
 class CfgWLRequisitionPresets
 {
 	class ColdWarWLAsset // --- class name used in the Init module
@@ -94,17 +96,17 @@ class CfgWLRequisitionPresets
 				};
 				class cwr3_b_m1a1
 				{
-					cost = 1000;
+					cost = 2250;
 					requirements[] = {};
 				};
 				class cwr3_b_m60a3
 				{
-					cost = 2000;
+					cost = 1500;
 					requirements[] = {};
 				};
 				class cwr3_b_m2a2
 				{
-					cost = 1000;
+					cost = 1500;
 					requirements[] = {};
 				};
 				class cwr3_b_m113a3
@@ -114,7 +116,22 @@ class CfgWLRequisitionPresets
 				};
 				class cwr3_b_m901_itv
 				{
-					cost = 700;
+					cost = 800;
+					requirements[] = {};
+				};
+				class cwr3_b_uk_fv4030
+				{
+					cost = 1800;
+					requirements[] = {};
+				};
+				class cwr3_b_uk_fv101
+				{
+					cost = 1250;
+					requirements[] = {};
+				};
+				class cwr3_b_uk_fv510
+				{
+					cost = 1400;
 					requirements[] = {};
 				};
 				class cwr3_b_m270_dpicm
@@ -152,9 +169,29 @@ class CfgWLRequisitionPresets
 					cost = 450;
 					requirements[] = {};
 				};
+				class cwr3_b_hmmwv_m2
+				{
+					cost = 300;
+					requirements[] = {};
+				};
 				class cwr3_b_m163
 				{
 					cost = 850;
+					requirements[] = {};
+				};
+				class CUP_B_LR_Special_GMG_GB_W
+				{
+					cost = 450;
+					requirements[] = {};
+				};
+				class cwr3_b_uk_fv4201
+				{
+					cost = 1300;
+					requirements[] = {};
+				};
+				class CUP_B_nM1097_AVENGER_USMC_WDL
+				{
+					cost = 1200;
 					requirements[] = {};
 				};
 			};
@@ -168,7 +205,7 @@ class CfgWLRequisitionPresets
 				};
 				class cwr3_b_ah1f
 				{
-					cost = 1700;
+					cost = 1900;
 					requirements[] = { "H" };
 				};
 				class cwr3_b_ah64
@@ -179,6 +216,21 @@ class CfgWLRequisitionPresets
 				class cwr3_b_camel
 				{
 					cost = 500;
+					requirements[] = { "A" };
+				};
+				class cwr3_b_f4e
+				{
+					cost = 4000;
+					requirements[] = { "A" };
+				};
+				class cwr3_b_f16c
+				{
+					cost = 7500;
+					requirements[] = { "A" };
+				};
+				class cwr3_b_a10
+				{
+					cost = 10000;
 					requirements[] = { "A" };
 				};
 			};
@@ -194,11 +246,6 @@ class CfgWLRequisitionPresets
 
 			class Gear
 			{
-				class Box_NATO_Ammo_F
-				{
-					cost = 2000;
-					requirements[] = {};
-				};
 			};
 
 			class Defences
@@ -240,6 +287,11 @@ class CfgWLRequisitionPresets
 				};
 				class cwr3_o_soldier_at_rpg7 // --- must be asset class name
 				{
+					cost = 200; // --- Command Points required
+					requirements[] = {}; // --- dispositions required ("A" = airstrip, "H" = helipad, "W" = water (harbor))
+				};
+				class cwr3_o_soldier_at_rpg18 // --- must be asset class name
+				{
 					cost = 150; // --- Command Points required
 					requirements[] = {}; // --- dispositions required ("A" = airstrip, "H" = helipad, "W" = water (harbor))
 				};
@@ -259,6 +311,11 @@ class CfgWLRequisitionPresets
 					requirements[] = {}; // --- dispositions required ("A" = airstrip, "H" = helipad, "W" = water (harbor))
 				};
 				class cwr3_o_soldier_radio // --- must be asset class name
+				{
+					cost = 200; // --- Command Points required
+					requirements[] = {}; // --- dispositions required ("A" = airstrip, "H" = helipad, "W" = water (harbor))
+				};
+				class cwr3_o_soldier_gl // --- must be asset class name
 				{
 					cost = 200; // --- Command Points required
 					requirements[] = {}; // --- dispositions required ("A" = airstrip, "H" = helipad, "W" = water (harbor))
@@ -292,7 +349,12 @@ class CfgWLRequisitionPresets
 				{
 					cost = 225; // --- Command Points required
 					requirements[] = {}; // --- dispositions required ("A" = airstrip, "H" = helipad, "W" = water (harbor))
-				};			
+				};	
+				class CUP_O_RUS_SpecOps_Scout_Night // --- must be asset class name
+				{
+					cost = 300; // --- Command Points required
+					requirements[] = {}; // --- dispositions required ("A" = airstrip, "H" = helipad, "W" = water (harbor))
+				};
 			};
 
 			class Vehicles
@@ -302,19 +364,24 @@ class CfgWLRequisitionPresets
 					cost = 50;
 					requirements[] = {};
 				};
-				class cwr3_o_t55
+				class cwr3_o_t55amv
 				{
-					cost = 1000;
+					cost = 1250;
+					requirements[] = {};
+				};
+				class cwr3_o_pt76b
+				{
+					cost = 1350;
 					requirements[] = {};
 				};
 				class cwr3_o_t72b1
 				{
-					cost = 2000;
+					cost = 2500;
 					requirements[] = {};
 				};
 				class cwr3_o_bmp2
 				{
-					cost = 1000;
+					cost = 1250;
 					requirements[] = {};
 				};
 				class cwr3_o_btr80
@@ -357,11 +424,22 @@ class CfgWLRequisitionPresets
 					cost = 400;
 					requirements[] = {};
 				};
+				class cwr3_o_uaz_dshkm
+				{
+					cost = 280;
+					requirements[] = {};
+				};
 				class cwr3_o_zsu
 				{
 					cost = 850;
 					requirements[] = {};
 				};
+				class cwr3_o_mtlb_sa13
+				{
+					cost = 1000;
+					requirements[] = {};
+				};
+			
 			};
 
 			class Aircraft
@@ -386,6 +464,21 @@ class CfgWLRequisitionPresets
 					cost = 500;
 					requirements[] = { "A" };
 				};
+				class cwr3_o_mig23
+				{
+					cost = 4500;
+					requirements[] = { "A" };
+				};
+				class cwr3_o_su25
+				{
+					cost = 7500;
+					requirements[] = { "A" };
+				};
+				class cwr3_o_su17m4
+				{
+					cost = 10000;
+					requirements[] = { "A" };
+				};
 			};
 
 			class Naval
@@ -399,11 +492,6 @@ class CfgWLRequisitionPresets
 
 			class Gear
 			{
-				class Box_OPFOR_Ammo_F
-				{
-					cost = 2000;
-					requirements[] = {};
-				};
 			};
 
 			class Defences
@@ -423,6 +511,12 @@ class CfgWLRequisitionPresets
 				class cwr3_o_nsv_high
 				{
 					cost = 400;
+					requirements[] = {};
+					offset[] = { 0, 5.3, 0 }; // --- custom offset (optional)
+				};
+				class cwr3_o_zu23
+				{
+					cost = 600;
 					requirements[] = {};
 					offset[] = { 0, 5.3, 0 }; // --- custom offset (optional)
 				};
@@ -513,34 +607,32 @@ class CfgWLFactionAssets
 		class InfantryGroups // --- independent faction uses group configs to spawn garrisons; you can define various group types to be randomly used
 		{
 			groups[] = {
-				"'Indep' >> 'cwr3_fia' >> 'Infantry' >> 'cwr3_i_at_team'", // --- use this part of the config path found in the Config viewer (CfgGroups)
-				"'Indep' >> 'cwr3_fia' >> 'Infantry' >> 'cwr3_i_support_team'", // --- use this part of the config path found in the Config viewer (CfgGroups)
-				"'Indep' >> 'cwr3_fia' >> 'Infantry' >> 'cwr3_i_mg_team'", // --- use this part of the config path found in the Config viewer (CfgGroups)
-				"'Indep' >> 'cwr3_fia' >> 'Infantry' >> 'cwr3_i_fire_team'", // --- use this part of the config path found in the Config viewer (CfgGroups)
-				"'Indep' >> 'cwr3_fia' >> 'Infantry' >> 'cwr3_i_rifle_squad'", // --- use this part of the config path found in the Config viewer (CfgGroups)
-				"'Indep' >> 'cwr3_fia' >> 'Infantry' >> 'cwr3_i_sniper_team'", // --- use this part of the config path found in the Config viewer (CfgGroups)
+				"'Indep' >> 'CWR3_TDF' >> 'Infantry' >> 'cwr3_tdf_at_team'", // --- use this part of the config path found in the Config viewer (CfgGroups)
+				"'Indep' >> 'CWR3_TDF' >> 'Infantry' >> 'cwr3_tdf_support_team'", // --- use this part of the config path found in the Config viewer (CfgGroups)
+				"'Indep' >> 'CWR3_TDF' >> 'Infantry' >> 'cwr3_tdf_mg_team'", // --- use this part of the config path found in the Config viewer (CfgGroups)
+				"'Indep' >> 'CWR3_TDF' >> 'Infantry' >> 'cwr3_tdf_fire_team'", // --- use this part of the config path found in the Config viewer (CfgGroups)
+				"'Indep' >> 'CWR3_TDF' >> 'Infantry' >> 'cwr3_tdf_rifle_squad'", // --- use this part of the config path found in the Config viewer (CfgGroups)
 			};
 		};
 		class MotorizedGroups
 		{
 			groups[] = {
-				"'Indep' >> 'cwr3_fia' >> 'Motorized' >> 'cwr3_i_motorized_section'", // --- use this part of the config path found in the Config viewer (CfgGroups)
-				"'Indep' >> 'cwr3_fia' >> 'Motorized' >> 'cwr3_i_motorized_patrol'", // --- use this part of the config path found in the Config viewer (CfgGroups)
-				"'Indep' >> 'cwr3_fia' >> 'Motorized' >> 'cwr3_i_motorized_section_at'", // --- use this part of the config path found in the Config viewer (CfgGroups)
+				"'Indep' >> 'CWR3_TDF' >> 'Motorized' >> 'cwr3_b_tdf_motorized_patrol'", // --- use this part of the config path found in the Config viewer (CfgGroups)
+				"'Indep' >> 'CWR3_TDF' >> 'Motorized' >> 'cwr3_b_tdf_motorized_section_at'", // --- use this part of the config path found in the Config viewer (CfgGroups)
+				"'Indep' >> 'CWR3_TDF' >> 'Motorized' >> 'cwr3_tdf_motorised_section'", // --- use this part of the config path found in the Config viewer (CfgGroups)
 			};
 		};
 		class MechanizedGroups
 		{
 			groups[] = {
-				"'Indep' >> 'cwr3_fia' >> 'Mechanized' >> 'cwr3_i_mechanized_infantry_bmp1'", // --- use this part of the config path found in the Config viewer (CfgGroups)
-				"'Indep' >> 'cwr3_fia' >> 'Mechanized' >> 'cwr3_i_mechanized_infantry_btr'", // --- use this part of the config path found in the Config viewer (CfgGroups)
+				"'Indep' >> 'CWR3_TDF' >> 'Mechanized' >> 'cwr3_tdf_mechanized_infantry_apc'", // --- use this part of the config path found in the Config viewer (CfgGroups)
 			};
 		};
 		class ArmoredGroups
 		{
 			groups[] = {
-				"'Indep' >> 'cwr3_fia' >> 'Armoured' >> 'cwr3_i_t34_platoon'", // --- use this part of the config path found in the Config viewer (CfgGroups)
-				"'Indep' >> 'cwr3_fia' >> 'Armoured' >> 'cwr3_i_bmp2_zu23_section'", // --- use this part of the config path found in the Config viewer (CfgGroups)
+				"'Indep' >> 'CWR3_TDF' >> 'Armoured' >> 'cwr3_tdf_mbt_platoon'", // --- use this part of the config path found in the Config viewer (CfgGroups)
+				"'Indep' >> 'CWR3_TDF' >> 'Armoured' >> 'cwr3_tdf_ifv_platoon'", // --- use this part of the config path found in the Config viewer (CfgGroups)
 			};
 		};
 	};
