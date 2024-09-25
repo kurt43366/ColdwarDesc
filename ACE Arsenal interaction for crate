@@ -1,0 +1,3 @@
+# Insert this into the init field of any object and have it act as ACE Arsenal for whitelisted and blacklisted items just making sure to include the items in the array in the middle 
+# [this, (//insert array here)] call ace_arsenal_fnc_initBox; I.e. [this, ["CUP_arifle_AUG_A1","CUP_arifle_CZ805_A1"]] call ace_arsenal_fnc_initBox;
+[this, (//insert array here)] call ace_arsenal_fnc_initBox;
