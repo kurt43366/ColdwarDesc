@@ -20,71 +20,71 @@ class CfgWLRequisitionPresets
 		{
 			class Infantry
 			{
-				class cwr3_b_soldier_aa_stinger // --- must be asset class name
-				{
-					cost = 200; // --- Command Points required
-					requirements[] = {}; // --- dispositions required ("A" = airstrip, "H" = helipad, "W" = water (harbor))
-				};
 				class cwr3_b_soldier_crew // --- must be asset class name
 				{
 					cost = 100; // --- Command Points required
 					requirements[] = {}; // --- dispositions required ("A" = airstrip, "H" = helipad, "W" = water (harbor))
 				};
-				class cwr3_b_soldier_at_m67 // --- must be asset class name
+				class cwr3_b_soldier
 				{
-					cost = 150; // --- Command Points required
-					requirements[] = {}; // --- dispositions required ("A" = airstrip, "H" = helipad, "W" = water (harbor))
+					cost = 125;
+					requirements[] = {};
 				};
-				class cwr3_b_soldier_mg // --- must be asset class name
+				class cwr3_b_soldier_medic
 				{
-					cost = 200; // --- Command Points required
-					requirements[] = {}; // --- dispositions required ("A" = airstrip, "H" = helipad, "W" = water (harbor))
+					cost = 150;
+					requirements[] = {};
 				};
-				class cwr3_b_soldier_marksman // --- must be asset class name
+				class cwr3_b_soldier_marksman
 				{
-					cost = 175; // --- Command Points required
-					requirements[] = {}; // --- dispositions required ("A" = airstrip, "H" = helipad, "W" = water (harbor))
+					cost = 175;
+					requirements[] = {};
 				};
-				class cwr3_b_soldier_medic // --- must be asset class name
+				class cwr3_b_soldier_mg
 				{
-					cost = 150; // --- Command Points required
-					requirements[] = {}; // --- dispositions required ("A" = airstrip, "H" = helipad, "W" = water (harbor))
+					cost = 200;
+					requirements[] = {};
 				};
-				class cwr3_b_soldier_radio // --- must be asset class name
+				class cwr3_b_soldier_radio
 				{
-					cost = 200; // --- Command Points required
-					requirements[] = {}; // --- dispositions required ("A" = airstrip, "H" = helipad, "W" = water (harbor))
+					cost = 200;
+					requirements[] = {};
 				};
-				class cwr3_b_soldier // --- must be asset class name
+				class cwr3_b_soldier_spotter
 				{
-					cost = 125; // --- Command Points required
-					requirements[] = {}; // --- dispositions required ("A" = airstrip, "H" = helipad, "W" = water (harbor))
+					cost = 200;
+					requirements[] = {};
 				};
-				class cwr3_b_soldier_sniper // --- must be asset class name
+				class cwr3_b_soldier_sniper
 				{
-					cost = 225; // --- Command Points required
-					requirements[] = {}; // --- dispositions required ("A" = airstrip, "H" = helipad, "W" = water (harbor))
+					cost = 225;
+					requirements[] = {};
 				};	
-				class cwr3_b_soldier_spotter // --- must be asset class name
+				class cwr3_b_soldier_engineer
 				{
-					cost = 200; // --- Command Points required
-					requirements[] = {}; // --- dispositions required ("A" = airstrip, "H" = helipad, "W" = water (harbor))
+					cost = 250;
+					requirements[] = {};
+				};	
+				class cwr3_b_blackop_uzi
+				{
+					cost = 200;
+					requirements[] = {};
+				};	
+				class cwr3_b_blackop_laser
+				{
+					cost = 225;
+					requirements[] = {};
 				};
-				class cwr3_b_soldier_engineer // --- must be asset class name
+				class cwr3_b_soldier_at_m67
 				{
-					cost = 250; // --- Command Points required
-					requirements[] = {}; // --- dispositions required ("A" = airstrip, "H" = helipad, "W" = water (harbor))
-				};	
-				class cwr3_b_blackop_uzi // --- must be asset class name
+					cost = 150;
+					requirements[] = {};
+				};
+				class cwr3_b_soldier_aa_stinger
 				{
-					cost = 200; // --- Command Points required
-					requirements[] = {}; // --- dispositions required ("A" = airstrip, "H" = helipad, "W" = water (harbor))
-				};	
-				class cwr3_b_blackop_laser // --- must be asset class name
-				{
-					cost = 225; // --- Command Points required
-					requirements[] = {}; // --- dispositions required ("A" = airstrip, "H" = helipad, "W" = water (harbor))
-				};				
+					cost = 200;
+					requirements[] = {};
+				};			
 			};
 
 			class Vehicles
@@ -94,69 +94,14 @@ class CfgWLRequisitionPresets
 					cost = 50;
 					requirements[] = {};
 				};
-				class cwr3_b_m1a1
-				{
-					cost = 2250;
-					requirements[] = {};
-				};
-				class cwr3_b_m60a3
-				{
-					cost = 1500;
-					requirements[] = {};
-				};
-				class cwr3_b_m2a2
-				{
-					cost = 1500;
-					requirements[] = {};
-				};
-				class cwr3_b_m113a3
-				{
-					cost = 750;
-					requirements[] = {};
-				};
-				class cwr3_b_m901_itv
-				{
-					cost = 800;
-					requirements[] = {};
-				};
-				class cwr3_b_uk_fv4030
-				{
-					cost = 1800;
-					requirements[] = {};
-				};
-				class cwr3_b_uk_fv101
-				{
-					cost = 1250;
-					requirements[] = {};
-				};
-				class cwr3_b_uk_fv510
-				{
-					cost = 1400;
-					requirements[] = {};
-				};
-				class cwr3_b_m270_dpicm
-				{
-					cost = 1700;
-					requirements[] = {};
-				};
-				class cwr3_b_m270_he
-				{
-					cost = 2100;
-					requirements[] = {};
-				};
 				class cwr3_b_hmmwv_mev
 				{
 					cost = 100;
 					requirements[] = {};
 				};
-				class cwr3_b_m939_reammo
+				class cwr3_b_hmmwv_m2
 				{
-					cost = 500;
-					requirements[] = {};
-				};
-				class cwr3_b_m939_refuel
-				{
-					cost = 500;
+					cost = 300;
 					requirements[] = {};
 				};
 				class cwr3_b_hmmwv_mk19
@@ -169,9 +114,34 @@ class CfgWLRequisitionPresets
 					cost = 450;
 					requirements[] = {};
 				};
-				class cwr3_b_hmmwv_m2
+				class CUP_B_LR_Special_GMG_GB_W
 				{
-					cost = 300;
+					cost = 450;
+					requirements[] = {};
+				};
+				class cwr3_b_m939_reammo
+				{
+					cost = 500;
+					requirements[] = {};
+				};
+				class cwr3_b_m939_refuel
+				{
+					cost = 500;
+					requirements[] = {};
+				};
+				class CUP_B_nM1097_AVENGER_USMC_WDL
+				{
+					cost = 1200;
+					requirements[] = {};
+				};
+				class cwr3_b_m113a3
+				{
+					cost = 750;
+					requirements[] = {};
+				};
+				class cwr3_b_m901_itv
+				{
+					cost = 800;
 					requirements[] = {};
 				};
 				class cwr3_b_m163
@@ -179,9 +149,24 @@ class CfgWLRequisitionPresets
 					cost = 850;
 					requirements[] = {};
 				};
-				class CUP_B_LR_Special_GMG_GB_W
+				class cwr3_b_uk_fv101
 				{
-					cost = 450;
+					cost = 1250;
+					requirements[] = {};
+				};
+				class cwr3_b_uk_fv510
+				{
+					cost = 1400;
+					requirements[] = {};
+				};
+				class cwr3_b_m2a2
+				{
+					cost = 1500;
+					requirements[] = {};
+				};
+				class cwr3_b_m60a3
+				{
+					cost = 1500;
 					requirements[] = {};
 				};
 				class cwr3_b_uk_fv4201
@@ -189,9 +174,24 @@ class CfgWLRequisitionPresets
 					cost = 1300;
 					requirements[] = {};
 				};
-				class CUP_B_nM1097_AVENGER_USMC_WDL
+				class cwr3_b_uk_fv4030
 				{
-					cost = 1200;
+					cost = 1800;
+					requirements[] = {};
+				};
+				class cwr3_b_m1a1
+				{
+					cost = 2250;
+					requirements[] = {};
+				};
+				class cwr3_b_m270_dpicm
+				{
+					cost = 1700;
+					requirements[] = {};
+				};
+				class cwr3_b_m270_he
+				{
+					cost = 2100;
 					requirements[] = {};
 				};
 			};
@@ -250,6 +250,12 @@ class CfgWLRequisitionPresets
 
 			class Defences
 			{
+				class cwr3_b_m2hb_high
+				{
+					cost = 400;
+					requirements[] = {};
+					offset[] = { 0, 5.3, 0 }; // --- custom offset (optional)
+				};
 				class cwr3_b_tow
 				{
 					cost = 600;
@@ -262,12 +268,6 @@ class CfgWLRequisitionPresets
 					requirements[] = {};
 					offset[] = { 0, 5.3, 0 }; // --- custom offset (optional)
 				};
-				class cwr3_b_m2hb_high
-				{
-					cost = 400;
-					requirements[] = {};
-					offset[] = { 0, 5.3, 0 }; // --- custom offset (optional)
-				};
 			};
 		};
 
@@ -275,85 +275,85 @@ class CfgWLRequisitionPresets
 		{
 			class Infantry
 			{
-				class cwr3_o_soldier_aa_igla // --- must be asset class name
+				class cwr3_o_soldier_crew
 				{
-					cost = 200; // --- Command Points required
-					requirements[] = {}; // --- dispositions required ("A" = airstrip, "H" = helipad, "W" = water (harbor))
+					cost = 100;
+					requirements[] = {};
 				};
-				class cwr3_o_soldier_crew // --- must be asset class name
+				class cwr3_o_soldier
 				{
-					cost = 100; // --- Command Points required
-					requirements[] = {}; // --- dispositions required ("A" = airstrip, "H" = helipad, "W" = water (harbor))
+					cost = 125;
+					requirements[] = {};
 				};
-				class cwr3_o_soldier_at_rpg7 // --- must be asset class name
+				class cwr3_o_soldier_medic
 				{
-					cost = 200; // --- Command Points required
-					requirements[] = {}; // --- dispositions required ("A" = airstrip, "H" = helipad, "W" = water (harbor))
+					cost = 150;
+					requirements[] = {};
 				};
-				class cwr3_o_soldier_at_rpg18 // --- must be asset class name
+				class cwr3_o_soldier_marksman
 				{
-					cost = 150; // --- Command Points required
-					requirements[] = {}; // --- dispositions required ("A" = airstrip, "H" = helipad, "W" = water (harbor))
+					cost = 175;
+					requirements[] = {};
 				};
-				class cwr3_o_soldier_mg // --- must be asset class name
+				class cwr3_o_soldier_mg
 				{
-					cost = 200; // --- Command Points required
-					requirements[] = {}; // --- dispositions required ("A" = airstrip, "H" = helipad, "W" = water (harbor))
+					cost = 200;
+					requirements[] = {};
 				};
-				class cwr3_o_soldier_marksman // --- must be asset class name
+				class cwr3_o_soldier_radio
 				{
-					cost = 175; // --- Command Points required
-					requirements[] = {}; // --- dispositions required ("A" = airstrip, "H" = helipad, "W" = water (harbor))
+					cost = 200;
+					requirements[] = {};
 				};
-				class cwr3_o_soldier_medic // --- must be asset class name
+				class cwr3_o_soldier_gl
 				{
-					cost = 150; // --- Command Points required
-					requirements[] = {}; // --- dispositions required ("A" = airstrip, "H" = helipad, "W" = water (harbor))
+					cost = 200;
+					requirements[] = {};
 				};
-				class cwr3_o_soldier_radio // --- must be asset class name
+				class cwr3_o_soldier_spotter
 				{
-					cost = 200; // --- Command Points required
-					requirements[] = {}; // --- dispositions required ("A" = airstrip, "H" = helipad, "W" = water (harbor))
+					cost = 200;
+					requirements[] = {};
 				};
-				class cwr3_o_soldier_gl // --- must be asset class name
+				class cwr3_o_soldier_sniper
 				{
-					cost = 200; // --- Command Points required
-					requirements[] = {}; // --- dispositions required ("A" = airstrip, "H" = helipad, "W" = water (harbor))
+					cost = 225;
+					requirements[] = {};
 				};
-				class cwr3_o_soldier // --- must be asset class name
+				class cwr3_o_soldier_engineer
 				{
-					cost = 125; // --- Command Points required
-					requirements[] = {}; // --- dispositions required ("A" = airstrip, "H" = helipad, "W" = water (harbor))
+					cost = 250;
+					requirements[] = {};
 				};
-				class cwr3_o_soldier_sniper // --- must be asset class name
+				class cwr3_o_spetsnaz_bizon_sd
 				{
-					cost = 225; // --- Command Points required
-					requirements[] = {}; // --- dispositions required ("A" = airstrip, "H" = helipad, "W" = water (harbor))
+					cost = 200;
+					requirements[] = {};
+				};
+				class cwr3_o_spetsnaz_at_at4
+				{
+					cost = 225;
+					requirements[] = {};
 				};	
-				class cwr3_o_soldier_spotter // --- must be asset class name
+				class CUP_O_RUS_SpecOps_Scout_Night
 				{
-					cost = 200; // --- Command Points required
-					requirements[] = {}; // --- dispositions required ("A" = airstrip, "H" = helipad, "W" = water (harbor))
+					cost = 300;
+					requirements[] = {};
 				};
-				class cwr3_o_soldier_engineer // --- must be asset class name
+				class cwr3_o_soldier_at_rpg18
 				{
-					cost = 250; // --- Command Points required
-					requirements[] = {}; // --- dispositions required ("A" = airstrip, "H" = helipad, "W" = water (harbor))
-				};		
-				class cwr3_o_spetsnaz_bizon_sd// --- must be asset class name
-				{
-					cost = 200; // --- Command Points required
-					requirements[] = {}; // --- dispositions required ("A" = airstrip, "H" = helipad, "W" = water (harbor))
+					cost = 150;
+					requirements[] = {};
 				};
-				class cwr3_o_spetsnaz_at_at4 // --- must be asset class name
+				class cwr3_o_soldier_at_rpg7
 				{
-					cost = 225; // --- Command Points required
-					requirements[] = {}; // --- dispositions required ("A" = airstrip, "H" = helipad, "W" = water (harbor))
-				};	
-				class CUP_O_RUS_SpecOps_Scout_Night // --- must be asset class name
+					cost = 200;
+					requirements[] = {};
+				};
+				class cwr3_o_soldier_aa_igla  
 				{
-					cost = 300; // --- Command Points required
-					requirements[] = {}; // --- dispositions required ("A" = airstrip, "H" = helipad, "W" = water (harbor))
+					cost = 200;
+					requirements[] = {};
 				};
 			};
 
@@ -362,6 +362,61 @@ class CfgWLRequisitionPresets
 				class cwr3_o_ural_open
 				{
 					cost = 50;
+					requirements[] = {};
+				};
+				class cwr3_o_uaz452_mev
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class cwr3_o_uaz_dshkm
+				{
+					cost = 280;
+					requirements[] = {};
+				};
+				class cwr3_o_uaz_spg9
+				{
+					cost = 400;
+					requirements[] = {};
+				};
+				class cwr3_o_uaz_ags30
+				{
+					cost = 400;
+					requirements[] = {};
+				};
+				class cwr3_o_ural_reammo
+				{
+					cost = 500;
+					requirements[] = {};
+				};
+				class cwr3_o_ural_refuel
+				{
+					cost = 500;
+					requirements[] = {};
+				};
+				class cwr3_o_brdm2_atgm
+				{
+					cost = 700;
+					requirements[] = {};
+				};
+				class cwr3_o_btr80
+				{
+					cost = 750;
+					requirements[] = {};
+				};
+				class cwr3_o_zsu
+				{
+					cost = 850;
+					requirements[] = {};
+				};
+				class cwr3_o_mtlb_sa13
+				{
+					cost = 1000;
+					requirements[] = {};
+				};
+				class cwr3_o_bmp2
+				{
+					cost = 1250;
 					requirements[] = {};
 				};
 				class cwr3_o_t55amv
@@ -379,67 +434,11 @@ class CfgWLRequisitionPresets
 					cost = 2500;
 					requirements[] = {};
 				};
-				class cwr3_o_bmp2
-				{
-					cost = 1250;
-					requirements[] = {};
-				};
-				class cwr3_o_btr80
-				{
-					cost = 750;
-					requirements[] = {};
-				};
-				class cwr3_o_brdm2_atgm
-				{
-					cost = 700;
-					requirements[] = {};
-				};
 				class cwr3_o_bm21
 				{
 					cost = 2000;
 					requirements[] = {};
 				};
-				class cwr3_o_uaz452_mev
-				{
-					cost = 100;
-					requirements[] = {};
-				};
-				class cwr3_o_ural_reammo
-				{
-					cost = 500;
-					requirements[] = {};
-				};
-				class cwr3_o_ural_refuel
-				{
-					cost = 500;
-					requirements[] = {};
-				};
-				class cwr3_o_uaz_spg9
-				{
-					cost = 400;
-					requirements[] = {};
-				};
-				class cwr3_o_uaz_ags30
-				{
-					cost = 400;
-					requirements[] = {};
-				};
-				class cwr3_o_uaz_dshkm
-				{
-					cost = 280;
-					requirements[] = {};
-				};
-				class cwr3_o_zsu
-				{
-					cost = 850;
-					requirements[] = {};
-				};
-				class cwr3_o_mtlb_sa13
-				{
-					cost = 1000;
-					requirements[] = {};
-				};
-			
 			};
 
 			class Aircraft
@@ -496,18 +495,6 @@ class CfgWLRequisitionPresets
 
 			class Defences
 			{
-				class cwr3_o_d30_at
-				{
-					cost = 600;
-					requirements[] = {};
-					offset[] = { 0, 5.3, 0 }; // --- custom offset (optional)
-				};
-				class cwr3_o_2b14
-				{
-					cost = 1000;
-					requirements[] = {};
-					offset[] = { 0, 5.3, 0 }; // --- custom offset (optional)
-				};
 				class cwr3_o_nsv_high
 				{
 					cost = 400;
@@ -517,6 +504,18 @@ class CfgWLRequisitionPresets
 				class cwr3_o_zu23
 				{
 					cost = 600;
+					requirements[] = {};
+					offset[] = { 0, 5.3, 0 }; // --- custom offset (optional)
+				};
+				class cwr3_o_d30_at
+				{
+					cost = 600;
+					requirements[] = {};
+					offset[] = { 0, 5.3, 0 }; // --- custom offset (optional)
+				};
+				class cwr3_o_2b14
+				{
+					cost = 1000;
 					requirements[] = {};
 					offset[] = { 0, 5.3, 0 }; // --- custom offset (optional)
 				};
